@@ -1,5 +1,7 @@
 // mongo-express-node-example/server.js
 
+// An Express.js Web app that performs CRUD operations on a Mongo database
+
 // TODO: 2017/03/29 : Eliminate the abundance of redundancy in this code. Code should be DRY.
 
 // "dependencies": {

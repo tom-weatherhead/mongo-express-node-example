@@ -6,10 +6,14 @@
 	"homepage": "https://github.com/tom-weatherhead/mongo-express-node-example#readme",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tom-weatherhead/mongo-express-node-example"
+        "url": "git+https://github.com/tom-weatherhead/mongo-express-node-example"
     },
+	"bugs": {
+		"url": "https://github.com/tom-weatherhead/mongo-express-node-example/issues"
+	},
 	"scripts": {
-		"start": "nodemon server.js"
+		"start": "nodemon server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
 		"crud",
@@ -29,6 +33,9 @@
 	"engines": {
 		"node": ">=0.8"
 	},
-	"author": "Tom Weatherhead (https://github.com/tom-weatherhead)",
+	"author": {
+		"name": "Tom Weatherhead",
+		"url": "https://github.com/tom-weatherhead"
+	},
     "license": "MIT"
 }
